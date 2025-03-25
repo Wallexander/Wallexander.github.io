@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box; /* asegura que el border ni el padding aumenten el tamaño del elemento*/
+}
+body{
+    line-height: 1.6; /*ayda a la visibilidad del texto*/
+}
+
+.navbar{
+    display: flex; /*permite que los elementos se alineen en una sola fila*/
+    justify-content: space-between; /*espacio entre elementos*/
+    align-items: center; /*centra los elementos al eje y*/
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
