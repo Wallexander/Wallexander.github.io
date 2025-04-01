@@ -30,3 +30,28 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.principal{
+    padding: 20px;
+}
+.principal h2{
+    margin-bottom: 20px;
+    transform: translate(-50%, -50%); /*mueve el elemento 50% a la izquierda y 50% hacia arriba*/
+    color: red;
+    background-color: rgb(255, 255, 255, 0.8); /*color blanco con 80% de opacidad*/
+    padding: 10px 20px; /*padding: 10px arriba y abajo, 20px a los lados*/
+    border-radius: 5px; /*redondea las esquinas del elemento*/
+}
+
+.contacto{
+    text-align: center;
+    padding: 20px; /*padding: 20px arriba y abajo, 0 a los lados*/
+}
+
+.contacto h2{
+    margin-bottom: 20px;
+    color: red;
+    background-color: rgb(255, 255, 255, 0.8); /*color blanco con 80% de opacidad*/
+    padding: 10px 20px; /*padding: 10px arriba y abajo, 20px a los lados*/
+    border-radius: 5px; /*redondea las esquinas del elemento*/
+}
