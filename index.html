@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+          <h1><b>mi Web</b></h1>
+          <ul>
+            <li><a href="#">inicio</a></li>
+            <li><a href="#">seviocios</a></li>
+            <li><a href="#">contacto</a></li>
+          </ul>  
+        </nav>
+    </header>
+    
+    <section class="principal">
+        <img src="imagnenes/pc-screen.avif" alt="">
+        <h2>bienbenido a mi pagina</h2>
+    </section>
+
+    <section class="contacto">
+        <h2>contacto</h2>
+        <form action="">
+            <label for="">Nombre:</label>
+            <input type="text" name="Nombre" required>
+            
+            <label for="email">correo:</label>
+            <input type="email" id="email">
+
+            <label for="mensaje">mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="6"></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <!--<input type="number">
+            <input type="color">
+            <input type="file">
+            <input type="range">
+            <input type="date">
+            <input type="checkbox"><br>
+            <input type="radio">
+            <input type="email">
+            <input type="password" name="" id=""><br>
+        <textarea>-->
+    </section>
+    <section class="mapa" id="mapa">
+        <h2>Ubicacion</h2>
+        <iframe
+         src="https://maps.app.goo.gl/D8THa5kpSNVyJrgv5" frameborder="0"
+         width="100%" height="300" style="border: 0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+</body>
+</html>
